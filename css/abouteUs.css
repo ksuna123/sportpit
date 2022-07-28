@@ -1,0 +1,194 @@
+.abouteWR{
+    background:#f7f7f7;
+}
+.abouteUs{
+    display: flex;
+ }
+ .aboteUsTitle p{
+    font-size: 34px;
+    font-weight: 900;
+     text-transform: uppercase;
+     letter-spacing: .02em;
+     margin-bottom: 35px;
+     font-style: italic;
+     
+ }
+ .aboteUsText{
+    
+    margin-bottom: 27px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #101010;
+    text-align: justify;
+ }
+ .abouteUsImg{
+    margin-right: 20px;
+    height: auto;
+    max-width: 500px;
+    /* min-width: 400px; */
+    /* min-height: 480px;*/
+    max-height: 530px;  
+    height: 400px;
+ }
+ 
+ .btn-send-us{
+    width: 300px;
+    height: 70px;
+   margin-top: auto;
+   padding-top: 0;
+   padding-bottom: 0;
+   transform: skew(-9deg);
+   transform-origin: center;
+   /* -webkit-backface-visibility: hidden; */
+   color: #fff;
+   background: #c143d1;
+  border-bottom: 2px solid #cf66d3;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;	
+   padding: 12px 10px;
+   font-size: 18px;
+   line-height: 20px;
+   font-weight: 900;
+   letter-spacing: .02em;
+   margin-bottom: 25px;
+  
+ }
+ .btn-send-us:hover{
+     cursor: pointer;
+     background: #be7dc7;
+ }
+ .aboute-info{
+ display: flex;
+ font-weight: 400;
+     line-height: 1.5;
+     color: #101010;
+     text-align: left;
+     
+ }
+ .aboute-info div{
+    padding-right: 12px;
+    /* font-size: 18px; */
+    line-height: 22px;
+    color: rgba(16,16,16,.5);
+     /* padding-left: 12px; */
+ }
+ 
+ .modal-container-aboute{
+    position: fixed;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    overflow: auto;
+    padding: 25px 0;
+    transform: translateY(0%) translateX(0%) scale(0);
+    transition: .5s ease-in-out;
+ }
+ 
+ .modal-container-aboute.activeM{
+    
+    transform: translateY(0%) translateX(0%) scale(100%);
+    background-color:rgba(0,0,0,0.8);
+ }
+
+ .myformAboute input{
+    width: 400px;
+    
+ }
+
+ .myformAboute textarea{
+    box-sizing:border-box;
+    width: 400px;
+    height: 80px;
+    display: block;
+    background:#efefef;
+    border:1px solid #e7e7e7;
+    padding-left:20px;
+    padding-top:20px;
+    font-family: Bender,Inter,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    margin-bottom: 25px;
+ }
+
+ .myformAboute textarea:hover{
+    background:white;
+    box-shadow:0px 5px 10px #b3b3b3bd;
+    border: 4px solid black;
+
+   
+}
+.write{
+    margin-bottom: 5px;
+}
+.message{
+  width: 100%;
+  height: 42px;  
+  margin-bottom: 5px;
+  color: #bf2cd3;
+}
+
+.datatreatment{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.btn_send:hover{
+    background: #be7dc7;
+    cursor: pointer;
+}
+@media (max-width: 1280px){
+   .profile_cont_main{
+      width: 850px;
+   
+   }
+}
+
+@media (max-width: 999px){
+   .profile_cont_main{
+      width: 90%;
+   
+   }
+   .hleb{
+      padding-left: 20px;
+   }
+   .profile_cont h1{
+      padding-left: 20px;
+   }
+   .aboute{
+      padding:0 20px;
+   }
+   .abouteUs{
+      flex-direction: column;
+   }
+   .abouteUsImg{
+ align-self:center;
+ margin-bottom: 15px;
+ height: 100%;
+   }
+   .abouteUsImg img{
+     
+      width: 100%;
+      height: 100%;
+   }
+  } 
+  @media (max-width:620px){
+   .profile_cont_main{
+      width: 100%;
+   
+   }
+ 
+}
+@media (max-width:400px){
+   .aboteUsTitle p{
+      font-size: 25px;
+    font-weight: 900;
+   }
+ 
+}
+
+ 

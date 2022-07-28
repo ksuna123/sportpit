@@ -1,0 +1,19 @@
+.profile_cont_main{
+    width:1000px;
+    margin:0 auto; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.profile_cont{
+    min-height: 300px;
+    max-height: 1500px;
+    padding-bottom: 50px;
+   
+}
+.profile-wrapper{
+    grid-template-rows:189px 1fr 0.5fr;
+}
+.ordernumber{
+    color: rgb(48, 0, 44);
+    height: 30px;
+}
