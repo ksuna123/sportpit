@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <link rel="stylesheet" href="css/master.css">
+	 <script src="js/master.js" charset="utf-8"></script> <!--Скрипт работает после загрузки дом, чтоб изменить, уберите defer -->
+
+	<!--  jquery -->
+     <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"  ></script> -->
+
+	   <!-- Materialize CSS-->
+	   <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+	  <!-- Materialize JavaScript -->
+	   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+	<!--less -->
+	 	<!-- <link rel="stylesheet" href="css/less.css"> --> 
+	   <!-- <script src="https://cdn.jsdelivr.net/npm/less"></script> -->
+	  <!-- <link rel="stylesheet" href="css/less.less">-->
+
+	<!--bootstrap -->
+ 	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+	 <title>Document</title>
+	 <base target="_blank">
+</head>
+<body>
+	<div class="cont">
+		<header>
+			<div class="banner">
+				<div class="header-banner">	
+					Бесплатная доставка при заказе от 2990
+				</div>
+			</div>
+			<div class="top-h-row">
+				<div class="header-top">
+				<div>Пермь</div>
+				<div class="header-top-menu">
+					<ul>
+						<li>Доставка и оплата</li>
+						<li>Контакты</li>
+						<li>Тренерам</li>
+					</ul>
+				</div>
+			   <div class="phone">
+				   <div><img src="img/call_ic_icon.svg" alt="" /></div>
+				    <span> 8-906-88-94449</span>
+				  </div>
+			   <div class="user_enter" id="auth">
+						<a href="#" id="open_pop_up">Войти</a>
+						<div class="modal" id="pop_up">
+							<div class="modal_content">
+								<div class="modal_body" id="pop_up_body">
+									<div class="mbody_title">Войти на сайт</div>
+									<div class="link-no-account">У меня еще нет аккаунта</div>
+									<form action="" method="post" class="sign_form">
+										<input type="text" name="" placeholder="Твой логин">
+										<input type="text" name="" placeholder="И пароль">
+									</form>
+									<div class="link-forgot-account">Забыли пароль?</div>
+									<button class="link-button">Войти</button>
+									<div class="modal_close" id="pop_up_close">&#10006</div>
+								</div>
+							</div>
+						</div>
+						
+					
+					<!-- <div>Регистрация</div>	 -->
+			   </div>
+			   </div>
+			</div>
+			<nav class="nav">
+			<div class="header-inner">
+			<div class="logo"><a href="#" title="Интернет магазин спортивного питания"><img src="img/logo.png" title="Интернет магазин спортивного питания" alt="Купить спортивное питание"></a></div>
+			<div>
+				<div class="search-overlay" id="search-overlay"></div>
+				<input id="search" type="text" name="" placeholder="Поиск в каталоге">
+				
+			</div>
+			<div class="header-inner-menu">
+				
+				<div class="header-inner-like">
+					<a href="#" title="Перейти в Избранное">
+					<img src="img/red_heart.svg" title="Избранное" alt="Избранное" class="img-top" height="40px" width="40px">
+					<img src="img/heart.svg" title="Избранное" alt="Избранное" class="img-bottom" height="40px" width="40px">
+					</a>
+				</div>
+				<div class="header-inner-basket">
+					<a href="#" title="Перейти в Корзину">
+							<div class="basket-img">
+							<img src="img/basket-white.svg" title="Корзина" alt="Корзина" class="basket-top" height="45px" width="50px">
+							<img src="img/basket.svg" title="Корзина" alt="Корзина" class="basket-bottom" height="45px" width="50px">
+							</div>
+						<div class="header-basket">Корзина</div>
+					</a>
+				</div>
+				
+			</div>
+		   </div>
+		   <div class="header-category-menu">
+				<div class="header-category">
+					<ul class="header-category-list">
+						<li class="header-category-item">
+							<a href="#" title="Спортивное питание" class="header-category-item_link">Спортивное питание</a>
+								<ul class="header-category-second">
+									<li><a href="#" title="Протеин" class="header-category-second_link">Протеин</a>
+										<div class="window_modal" id="window_modal">Modal window</div>	
+									</li>
+									<li><a href="#" title="Набор массы" class="header-category-second_link">Набор массы</a></li>
+									<li><a href="#" title="Похудение" class="header-category-second_link">Похудение</a></li>
+									<li><a href="#" title="Аминокислоты" class="header-category-second_link">Аминокислоты</a></li>
+								</ul>
+						</li>
+						<li class="header-category-item">
+							<a href="#" title="Экипировка и аксессуары" class="header-category-item_link">Экипировка и аксессуары</a>
+								<ul class="header-category-second">
+									<li> <a href="#" title="Экипировка" class="header-category-second_link">Экипировка</a> 
+									</li> 
+									<li> <a href="#" title="Аксессуары" class="header-category-second_link">Аксессуары</a> </li>
+								</ul>
+						</li>
+						<li class="header-category-item">
+							<a href="#" title="О нас" class="header-category-item_link">О нас</a>
+						</li>
+					</ul>
+					
+				</div>
+		   </div>
+		</nav>
+		</header>
+		<main>
+			<div></div>
+		</main>
+		
+		<footer>
+			<div class="footer_top">
+				<div class="footer_cont">
+					<a href="#" class="footer_logo"><img src="img/gym_icon.svg" alt="Логотип"></a>
+					<div class="f_submenu">
+						<div class="f_submenu_col">
+							<h4><a href="#" class="submenu_col_link">Питание</a></h4>
+							<ul class="submenu_col_list">
+								<li><a href="">Протеин</a></li>
+								<li><a href="">Набор массы</a></li>
+								<li><a href="">Похудение</a></li>
+								<li><a href="">Аминокислоты</a></li>
+							</ul>
+						</div>
+						<div class="f_submenu_col">
+							<h4><a href="#" class="submenu_col_link">Аксессуары и Экипировка</a></h4>
+							<ul class="submenu_col_list">
+								<li><a href="">Аксессуары</a></li>
+								<li><a href="">Экипировка</a></li>
+							
+							</ul>
+						</div>
+						<div class="f_submenu_col">
+							<h4><a href="#" class="submenu_col_link">Покупателям</a></h4>
+							<ul class="submenu_col_list">
+								<li><a href="">Доставка и оплата</a></li>
+								<li><a href="">Наш адрес</a></li>
+							</ul>
+						</div>
+						<div class="f_submenu_col">
+							<h4><a href="#" class="submenu_col_link">Компания</a></h4>
+							<ul class="submenu_col_list">
+								<li><a href="">О компании</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<div class="f-contacts_social">
+							<a href="https://vk.com" class="footer-contacts__social-item"><img src="img/vk_icon.svg" alt=""></a>
+							<a href="https://www.instagram.com" class="footer-contacts__social-item"><img src="img/instagram_icon.svg" alt=""></a>
+						</div>
+						<div class="f-contacts_address">
+							<div class="f-contacts_store">Магазины в Перми</div>
+							<div class="footer-address_item">
+								<div class="footer-address_address">г. Пермь, ул. Краснофлотская, 37</div>
+								<div class="footer-address_tel">8-906-88-94449</div>
+								<a href="mailto:ksenia.konuk@mail.ru">E-mail</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer_botom">
+				<div class="footer_botom_cont">
+					<div>© sportpit22.com в Перми, 2022</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script>
+			//всплывающее окно для списка
+			let a=document.querySelectorAll(".header-category-second");
+			for(let i=0; i<a.length; i++){
+			a[i].onmouseover = function(event) {
+			console.log(event);
+			window_modal.style.display="block";
+
+	         }
+
+	          a[i].onmouseout = function() {
+
+			window_modal.style.display="none";
+			}
+			};
+			
+			//по клику открываем закрываем окно Войти
+
+			let openPopUp=document.getElementById('open_pop_up');
+			let closePopUp=document.getElementById('pop_up_close');
+			let popUp=document.getElementById('pop_up')
+			openPopUp.addEventListener('click', function(e){
+				e.preventDefault();
+				popUp.classList.add('active');
+			})
+			closePopUp.addEventListener('click',()=>{
+				popUp.classList.remove('active')
+			});
+			//по клику превращаем инпут
+
+			let showInput=document.getElementById('search');
+			let closeInput=document.getElementById('search-overlay');
+			showInput.addEventListener('click', function(){
+				
+				closeInput.classList.add('show');
+				showInput.classList.add('i-show');
+			})
+			closeInput.addEventListener('click',()=>{
+				closeInput.classList.remove('show');
+				showInput.classList.remove('i-show');
+			});
+
+			//фиксированное меню
+			window.onscroll=function showNav(){
+				let nav=document.querySelector('.nav');
+				if(window.pageYOffset>64){
+					nav.classList.add('nav_fixed');
+				}else {nav.classList.remove('nav_fixed');}
+			};
+	</script>
+</body>
+</html>
